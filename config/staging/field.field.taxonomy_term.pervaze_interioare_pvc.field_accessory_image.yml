@@ -1,0 +1,38 @@
+uuid: eb1ca1b3-d62a-4eaf-80d2-4702046d3afd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_accessory_image
+    - taxonomy.vocabulary.pervaze_interioare_pvc
+  module:
+    - image
+id: taxonomy_term.pervaze_interioare_pvc.field_accessory_image
+field_name: field_accessory_image
+entity_type: taxonomy_term
+bundle: pervaze_interioare_pvc
+label: 'Accessory Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: true
+  title_field_required: true
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

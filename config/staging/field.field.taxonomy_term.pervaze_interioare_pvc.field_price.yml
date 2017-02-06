@@ -1,0 +1,23 @@
+uuid: 0e7406de-f6b3-44fc-9248-7945a65b51e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_price
+    - taxonomy.vocabulary.pervaze_interioare_pvc
+id: taxonomy_term.pervaze_interioare_pvc.field_price
+field_name: field_price
+entity_type: taxonomy_term
+bundle: pervaze_interioare_pvc
+label: Price
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

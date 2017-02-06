@@ -1,0 +1,18 @@
+uuid: ba478ff0-4a19-4363-b625-62a80f85f8b4
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Panel
+type: panel
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

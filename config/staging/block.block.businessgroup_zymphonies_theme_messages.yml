@@ -1,0 +1,22 @@
+uuid: 0c688189-3562-4b75-b61e-072be37cddbb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - businessgroup_zymphonies_theme
+_core:
+  default_config_hash: mHlwUVEUZgexqEoFGLghbBsl2C0SmKgZh5KrtvGBc6Y
+id: businessgroup_zymphonies_theme_messages
+theme: businessgroup_zymphonies_theme
+region: highlighted
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

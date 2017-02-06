@@ -1,0 +1,9 @@
+uuid: 7b634a0d-6fd1-4777-8ce3-d99dd8a84ed6
+langcode: en
+status: true
+dependencies: {  }
+name: 'Panel Type'
+vid: panel_type
+description: ''
+hierarchy: 0
+weight: 0

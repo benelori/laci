@@ -1,0 +1,28 @@
+uuid: eca257ba-c9dc-4855-b4eb-bc6ee3d5b667
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_panel_options
+    - node.type.panel
+    - taxonomy.vocabulary.panel_options
+id: node.panel.field_panel_options
+field_name: field_panel_options
+entity_type: node
+bundle: panel
+label: 'Panel Options'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      panel_options: panel_options
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

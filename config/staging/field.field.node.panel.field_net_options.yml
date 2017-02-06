@@ -1,0 +1,28 @@
+uuid: 011b1d26-1113-4f53-b848-b4d9960ac49a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_net_options
+    - node.type.panel
+    - taxonomy.vocabulary.net_options
+id: node.panel.field_net_options
+field_name: field_net_options
+entity_type: node
+bundle: panel
+label: 'Net options'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      net_options: net_options
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

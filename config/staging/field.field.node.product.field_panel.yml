@@ -1,0 +1,28 @@
+uuid: 4f854c20-cf50-48b8-89b0-0b5cad38f971
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_panel
+    - node.type.panel
+    - node.type.product
+id: node.product.field_panel
+field_name: field_panel
+entity_type: node
+bundle: product
+label: Panel
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      panel: panel
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

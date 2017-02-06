@@ -1,0 +1,29 @@
+uuid: bacefb86-fd60-4247-93a1-80a0998cb91e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.profile.field_color
+    - taxonomy.vocabulary.profile
+id: taxonomy_term.profile.default
+targetEntityType: taxonomy_term
+bundle: profile
+mode: default
+content:
+  field_color:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  name:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  description: true
+  path: true

@@ -1,0 +1,52 @@
+uuid: 1dff7607-4b33-4112-a340-c8e98947576d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.pervaze_interioare_pvc.field_accessory_image
+    - field.field.taxonomy_term.pervaze_interioare_pvc.field_length
+    - field.field.taxonomy_term.pervaze_interioare_pvc.field_price
+    - taxonomy.vocabulary.pervaze_interioare_pvc
+  module:
+    - image
+    - text
+id: taxonomy_term.pervaze_interioare_pvc.default
+targetEntityType: taxonomy_term
+bundle: pervaze_interioare_pvc
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  field_accessory_image:
+    weight: 3
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_length:
+    weight: 2
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+  field_price:
+    weight: 1
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+hidden: {  }

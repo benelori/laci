@@ -1,0 +1,23 @@
+uuid: 8a3ef2bd-1b80-439c-8bdd-86af8eca462a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_width
+    - node.type.panel
+id: node.panel.field_width
+field_name: field_width
+entity_type: node
+bundle: panel
+label: Width
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

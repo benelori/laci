@@ -1,0 +1,9 @@
+uuid: 262b7762-e584-407b-8bd6-10b98bbf5440
+langcode: en
+status: true
+dependencies: {  }
+name: 'Panel Opening'
+vid: panel_opening
+description: ''
+hierarchy: 0
+weight: 0

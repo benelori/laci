@@ -1,0 +1,17 @@
+uuid: 8754ef10-1f73-4851-a4e6-060dc7187d1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.panel
+  module:
+    - user
+id: node.panel.teaser
+targetEntityType: node
+bundle: panel
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden: {  }

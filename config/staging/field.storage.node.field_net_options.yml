@@ -1,0 +1,20 @@
+uuid: c255bf40-f5ee-47fc-a762-754b31e1dc65
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_net_options
+field_name: field_net_options
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

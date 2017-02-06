@@ -1,0 +1,9 @@
+uuid: 6973ea13-9e25-4c06-b5e9-e34d21892fd7
+langcode: en
+status: true
+dependencies: {  }
+name: 'Glass Type'
+vid: glass_type
+description: ''
+hierarchy: 0
+weight: 0

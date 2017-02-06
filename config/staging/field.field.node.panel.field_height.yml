@@ -1,0 +1,23 @@
+uuid: 8b37d721-f14c-4173-a654-cde3aea5c02c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_height
+    - node.type.panel
+id: node.panel.field_height
+field_name: field_height
+entity_type: node
+bundle: panel
+label: Height
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

@@ -1,0 +1,28 @@
+uuid: de56b8fc-55e4-499c-a3c5-8e9d7866b728
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_accesories
+    - node.type.product
+    - taxonomy.vocabulary.pervaze_interioare_pvc
+id: node.product.field_accesories
+field_name: field_accesories
+entity_type: node
+bundle: product
+label: Accesories
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      pervaze_interioare_pvc: pervaze_interioare_pvc
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

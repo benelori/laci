@@ -1,0 +1,9 @@
+uuid: 014aa70f-1ec2-47dc-bc77-e9835923b1b7
+langcode: en
+status: true
+dependencies: {  }
+name: 'Panel Options'
+vid: panel_options
+description: 'Glass or Panel'
+hierarchy: 0
+weight: 0

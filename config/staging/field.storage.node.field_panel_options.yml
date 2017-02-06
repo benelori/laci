@@ -1,0 +1,20 @@
+uuid: b8720246-414b-42f7-80a1-d0a927623d3f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_panel_options
+field_name: field_panel_options
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

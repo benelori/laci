@@ -1,0 +1,28 @@
+uuid: a666306c-737d-4ea8-8221-ae2f3da1766b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_profile
+    - node.type.product
+    - taxonomy.vocabulary.profile
+id: node.product.field_profile
+field_name: field_profile
+entity_type: node
+bundle: product
+label: Profile
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      profile: profile
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

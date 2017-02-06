@@ -1,0 +1,28 @@
+uuid: 7f886816-2ed8-4931-965e-4c33beb832e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_deschidere
+    - node.type.panel
+    - taxonomy.vocabulary.panel_opening
+id: node.panel.field_deschidere
+field_name: field_deschidere
+entity_type: node
+bundle: panel
+label: Deschidere
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      panel_opening: panel_opening
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
